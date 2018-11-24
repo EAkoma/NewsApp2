@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_margin">16dp</dimen>
+    <dimen name="width_Height0">0dp</dimen>
+    <dimen name="width_Height1">4dp</dimen>
+    <dimen name="width_Height2">8dp</dimen>
+    <dimen name="width_Height3">16dp</dimen>
+    <dimen name="width_Height4">20dp</dimen>
+    <dimen name="width_Height5">24dp</dimen>
+    <dimen name="size_0">0sp</dimen>
+    <dimen name="size_1">4sp</dimen>
+    <dimen name="size_2">8dp</dimen>
+    <dimen name="size_3">10sp</dimen>
+    <dimen name="size_4">12sp</dimen>
+    <dimen name="size_5">16sp</dimen>
+    <dimen name="size_7">18sp</dimen>
+    <dimen name="size_8">20sp</dimen>
+    <dimen name="size_9">24sp</dimen>
+</resources>

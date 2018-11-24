@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="vertical"
+android:padding="@dimen/activity_margin">
+
+<TextView
+    android:id="@+id/list_product_name"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:fontFamily="sans-serif-medium"
+    android:text="@string/hint_product_name"
+    android:textColor="@color/colorBlack"
+    android:textSize="@dimen/size_9" />
+
+<TextView
+    android:id="@+id/list_quantity"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:fontFamily="sans-serif-medium"
+    android:text="@string/list_quantity"
+    android:textColor="@color/colorHint"
+    android:textSize="@dimen/size_7" />
+
+<TextView
+    android:id="@+id/list_price"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:fontFamily="sans-serif-medium"
+    android:text="@string/list_price"
+    android:textColor="@color/colorHint"
+    android:textSize="@dimen/size_7" />
+
+<TextView
+    android:id="@+id/summary"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:fontFamily="sans-serif"
+    android:textAppearance="?android:textAppearanceSmall"
+    android:textColor="#AEB6BD" />
+
+<TextView
+    android:id="@+id/list_phone"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:fontFamily="sans-serif"
+    android:textAppearance="?android:textAppearanceSmall"
+    android:textColor="#AEB6BD" />
+
+    <TextView
+        android:id="@+id/sale_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        android:gravity="center"
+        android:text="@string/sale_button"
+        android:focusable="false"/>
+    <TextView
+        android:id="@+id/sale_view"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:visibility="invisible"/>
+
+</LinearLayout>
